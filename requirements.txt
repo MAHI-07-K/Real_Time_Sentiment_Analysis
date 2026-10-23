@@ -1,0 +1,14 @@
+pandas>=2.2
+scikit-learn>=1.5
+lightgbm>=4.5
+joblib>=1.4
+fastapi>=0.115
+uvicorn[standard]>=0.30
+streamlit>=1.39
+requests>=2.32
+python-dotenv>=1.0
+praw>=7.8
+google-api-python-client>=2.149
+kagglehub>=0.3
+pytest>=8.3
+twitchio>=2.8; extra == "twitch" or python_version >= "3.10"

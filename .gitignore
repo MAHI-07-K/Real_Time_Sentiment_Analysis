@@ -1,0 +1,56 @@
+# ── Secrets ──────────────────────────────────────────────────────────────────
+.env
+
+# ── Python virtual environments ───────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Python byte-code & build artefacts ────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ── Test & coverage cache ─────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ── Data files (keep placeholder .gitkeep files) ──────────────────────────────
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/*.db
+*.db
+
+# ── Trained models (large binaries) ───────────────────────────────────────────
+models/*
+!models/.gitkeep
+
+# ── IDE / Editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ── OS junk ───────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Figma / Design exports (separate repo artefacts) ─────────────────────────
+Design with Clean Colors/
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
